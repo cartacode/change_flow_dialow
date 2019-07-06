@@ -20,12 +20,12 @@ const functions = require('firebase-functions');
 const firebase = require('firebase-admin');
 
 var config = {
-  apiKey: "AIzaSyAHxE3p-StvpR-8Rj88C42R9EEJSmlVLEs",
-  authDomain: "changeflow-9f86f.firebaseapp.com",
-  databaseURL: "https://changeflow-9f86f.firebaseio.com",
-  projectId: "changeflow-9f86f",
-  storageBucket: "changeflow-9f86f.appspot.com",
-  messagingSenderId: "210271489664"
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: ""
 };
 
 firebase.initializeApp(config);
